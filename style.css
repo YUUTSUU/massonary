@@ -1,0 +1,86 @@
+.grid {
+    /* display: flex; */
+    /* column-count: 3; */
+    /* column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    width: 1200px;
+    display: flex;
+    flex-flow: column wrap; */
+
+/*     
+    display: flex;
+    flex-flow: column wrap;
+    width: 800px;
+    height: 100vh;
+    column-gap: 10px;
+    row-gap: 10px; */
+
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: 20px;
+    /* row-gap: 10px */
+}
+
+.item {
+    /* display: block; */
+    background: blue;
+    /* width: 200px; */
+    /* margin-top: 20px;
+    margin-right: 20px; */
+    /* margin-top: 20px; */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* .item:nth-child(3n+1) { order: 1; }
+.item:nth-child(3n+2) { order: 2; }
+.item:nth-child(3n)   { order: 3; } */
+
+.content-1 {
+    height: 200px;
+}
+
+.content-2 {
+    height: 400px;
+}
+
+.content-3 {
+    height: 150px;
+}
+
+.content-4 {
+    height: 350px;
+}
+
+.content-5 {
+    height: 450px;
+}
+
+.content-6 {
+    height: 500px;
+}
+
+.content-7 {
+    height: 200px;
+}
+
+.content-8 {
+    height: 150px;
+}
+
+.content-9 {
+    height: 250px;
+}
+
+.content-10 {
+    height: 400px;
+}
